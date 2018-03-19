@@ -9,4 +9,8 @@ public class DefaultCalculator implements Calculator {
     public int divide(int num, int den) {
         return num / den;
     }
+
+    public int multiply(int x, int y) {
+        return x * y;
+    }
 }

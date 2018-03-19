@@ -20,5 +20,10 @@ public class DefaultCalculatorTest {
         assertEquals("Division error", 2, num);
     }
 
-
+    @Test
+    public void testMultiply() {
+        DefaultCalculator calc = new DefaultCalculator();
+        int num = calc.multiply(4, 2);
+        assertEquals("Multiplication error", 8, num);
+    }
 }
