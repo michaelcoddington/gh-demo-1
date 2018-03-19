@@ -8,4 +8,6 @@ public interface Calculator {
 
     int multiply(int x, int y);
 
+    int subtract(int x, int y);
+
 }
