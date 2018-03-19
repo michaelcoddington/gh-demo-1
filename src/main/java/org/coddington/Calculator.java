@@ -6,4 +6,6 @@ public interface Calculator {
 
     int divide(int num, int den);
 
+    int multiply(int x, int y);
+
 }
