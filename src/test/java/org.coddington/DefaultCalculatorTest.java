@@ -13,5 +13,12 @@ public class DefaultCalculatorTest {
         assertEquals("Addition error", 4, sum);
     }
 
+    @Test
+    public void testDivide() {
+        DefaultCalculator calc = new DefaultCalculator();
+        int num = calc.divide(4, 2);
+        assertEquals("Division error", 2, num);
+    }
+
 
 }
