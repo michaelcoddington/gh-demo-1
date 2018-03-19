@@ -14,6 +14,13 @@ public class DefaultCalculatorTest {
     }
 
     @Test
+    public void testSubtract() {
+        DefaultCalculator calc = new DefaultCalculator();
+        int num = calc.subtract(4, 2);
+        assertEquals("Subtraction error", 2, num);
+    }
+
+    @Test
     public void testDivide() {
         DefaultCalculator calc = new DefaultCalculator();
         int num = calc.divide(4, 2);

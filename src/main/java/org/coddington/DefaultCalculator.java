@@ -13,4 +13,8 @@ public class DefaultCalculator implements Calculator {
     public int multiply(int x, int y) {
         return x * y;
     }
+
+    public int subtract(int x, int y) {
+        return x - y;
+    }
 }
