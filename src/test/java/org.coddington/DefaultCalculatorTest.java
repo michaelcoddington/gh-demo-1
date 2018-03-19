@@ -28,6 +28,13 @@ public class DefaultCalculatorTest {
     }
 
     @Test
+    public void testSubtractNegativeFromNegative() {
+        DefaultCalculator calc = new DefaultCalculator();
+        int num = calc.subtract(-10, -3);
+        assertEquals("Subtraction error", -7, num);
+    }
+
+    @Test
     public void testDivide() {
         DefaultCalculator calc = new DefaultCalculator();
         int num = calc.divide(4, 2);
