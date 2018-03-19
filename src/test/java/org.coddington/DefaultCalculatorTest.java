@@ -26,4 +26,11 @@ public class DefaultCalculatorTest {
         int num = calc.multiply(4, 2);
         assertEquals("Multiplication error", 8, num);
     }
+
+    @Test
+    public void testMultiplyNegatives() {
+        DefaultCalculator calc = new DefaultCalculator();
+        int num = calc.multiply(-4, -2);
+        assertEquals("Multiplication error", 8, num);
+    }
 }
