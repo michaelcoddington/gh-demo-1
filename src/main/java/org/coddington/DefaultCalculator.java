@@ -1,5 +1,6 @@
 package org.coddington;
 
+/** Default implementation of Calculator */
 public class DefaultCalculator implements Calculator {
 
     public int add(int a, int b) {
