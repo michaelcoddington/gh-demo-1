@@ -18,4 +18,8 @@ public class DefaultCalculator implements Calculator {
     public int subtract(int x, int y) {
         return x - y;
     }
+
+    public int mod(int x, int y) {
+        return x % y;
+    }
 }

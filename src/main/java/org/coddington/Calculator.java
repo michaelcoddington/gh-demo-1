@@ -10,4 +10,6 @@ public interface Calculator {
 
     int subtract(int x, int y);
 
+    int mod(int x, int y);
+
 }
